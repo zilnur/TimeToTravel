@@ -9,21 +9,53 @@
 /* Begin PBXBuildFile section */
 		BC00DA382A0E65DD006274E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC00DA372A0E65DD006274E6 /* AppDelegate.swift */; };
 		BC00DA3A2A0E65DD006274E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC00DA392A0E65DD006274E6 /* SceneDelegate.swift */; };
-		BC00DA3C2A0E65DD006274E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC00DA3B2A0E65DD006274E6 /* ViewController.swift */; };
-		BC00DA3F2A0E65DD006274E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC00DA3D2A0E65DD006274E6 /* Main.storyboard */; };
+		BC00DA3C2A0E65DD006274E6 /* FlightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC00DA3B2A0E65DD006274E6 /* FlightsViewController.swift */; };
 		BC00DA412A0E65DE006274E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC00DA402A0E65DE006274E6 /* Assets.xcassets */; };
 		BC00DA442A0E65DE006274E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC00DA422A0E65DE006274E6 /* LaunchScreen.storyboard */; };
+		BC00DA4C2A0E7E65006274E6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC00DA4B2A0E7E65006274E6 /* NetworkManager.swift */; };
+		BC00DA4E2A0FCC34006274E6 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC00DA4D2A0FCC34006274E6 /* NetworkModel.swift */; };
+		BC00DA512A10C206006274E6 /* FlightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC00DA502A10C206006274E6 /* FlightTableViewCell.swift */; };
+		BC00DA532A10C2FA006274E6 /* CityAndTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC00DA522A10C2FA006274E6 /* CityAndTimeView.swift */; };
+		BC00DA562A10C606006274E6 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC00DA552A10C606006274E6 /* UIViewExtension.swift */; };
+		BC00DA5A2A10CBE9006274E6 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC00DA592A10CBE9006274E6 /* StringExtension.swift */; };
+		BC00DA5D2A10E14E006274E6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC00DA5C2A10E14E006274E6 /* DetailViewController.swift */; };
+		BC00DA5F2A10E591006274E6 /* FlightInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC00DA5E2A10E591006274E6 /* FlightInfoView.swift */; };
+		BC00DA612A1120DC006274E6 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC00DA602A1120DC006274E6 /* PathView.swift */; };
+		BC00DA632A112B49006274E6 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC00DA622A112B49006274E6 /* DetailView.swift */; };
+		BC00DA652A1147FB006274E6 /* FlightsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC00DA642A1147FB006274E6 /* FlightsPresenter.swift */; };
+		BCC54B922A124C2B000434D2 /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC54B912A124C2B000434D2 /* DataBaseManager.swift */; };
+		BCC54B962A125D8F000434D2 /* FlightModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC54B952A125D8F000434D2 /* FlightModel.swift */; };
+		BCC54B982A126D53000434D2 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC54B972A126D53000434D2 /* DetailPresenter.swift */; };
+		BCC54B9A2A126DD0000434D2 /* ModulesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC54B992A126DD0000434D2 /* ModulesFactory.swift */; };
+		BCC54B9E2A126F95000434D2 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC54B9D2A126F95000434D2 /* Coordinator.swift */; };
+		BCC54BA52A129077000434D2 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BCC54BA32A129077000434D2 /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BC00DA342A0E65DD006274E6 /* Time to travel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time to travel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC00DA372A0E65DD006274E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC00DA392A0E65DD006274E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BC00DA3B2A0E65DD006274E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BC00DA3E2A0E65DD006274E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC00DA3B2A0E65DD006274E6 /* FlightsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsViewController.swift; sourceTree = "<group>"; };
 		BC00DA402A0E65DE006274E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC00DA432A0E65DE006274E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC00DA452A0E65DE006274E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC00DA4B2A0E7E65006274E6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		BC00DA4D2A0FCC34006274E6 /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
+		BC00DA502A10C206006274E6 /* FlightTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTableViewCell.swift; sourceTree = "<group>"; };
+		BC00DA522A10C2FA006274E6 /* CityAndTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityAndTimeView.swift; sourceTree = "<group>"; };
+		BC00DA552A10C606006274E6 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		BC00DA592A10CBE9006274E6 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		BC00DA5C2A10E14E006274E6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		BC00DA5E2A10E591006274E6 /* FlightInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightInfoView.swift; sourceTree = "<group>"; };
+		BC00DA602A1120DC006274E6 /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
+		BC00DA622A112B49006274E6 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		BC00DA642A1147FB006274E6 /* FlightsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsPresenter.swift; sourceTree = "<group>"; };
+		BCC54B912A124C2B000434D2 /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
+		BCC54B952A125D8F000434D2 /* FlightModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightModel.swift; sourceTree = "<group>"; };
+		BCC54B972A126D53000434D2 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		BCC54B992A126DD0000434D2 /* ModulesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModulesFactory.swift; sourceTree = "<group>"; };
+		BCC54B9D2A126F95000434D2 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		BCC54BA42A129077000434D2 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +88,111 @@
 		BC00DA362A0E65DD006274E6 /* Time to travel */ = {
 			isa = PBXGroup;
 			children = (
-				BC00DA372A0E65DD006274E6 /* AppDelegate.swift */,
-				BC00DA392A0E65DD006274E6 /* SceneDelegate.swift */,
-				BC00DA3B2A0E65DD006274E6 /* ViewController.swift */,
-				BC00DA3D2A0E65DD006274E6 /* Main.storyboard */,
-				BC00DA402A0E65DE006274E6 /* Assets.xcassets */,
-				BC00DA422A0E65DE006274E6 /* LaunchScreen.storyboard */,
 				BC00DA452A0E65DE006274E6 /* Info.plist */,
+				BCC54B9C2A126F87000434D2 /* Coordinator */,
+				BCC54B9B2A126DE0000434D2 /* Factory */,
+				BCC54B902A124C17000434D2 /* DataBase */,
+				BCC54B9F2A127283000434D2 /* Network */,
+				BC00DA542A10C5F2006274E6 /* Extensions */,
+				BCC54BA22A1276EA000434D2 /* Application */,
+				BC00DA4F2A10C1DE006274E6 /* FlightsModule */,
+				BC00DA5B2A10E12E006274E6 /* DetailFlightModule */,
 			);
 			path = "Time to travel";
+			sourceTree = "<group>";
+		};
+		BC00DA4F2A10C1DE006274E6 /* FlightsModule */ = {
+			isa = PBXGroup;
+			children = (
+				BC00DA3B2A0E65DD006274E6 /* FlightsViewController.swift */,
+				BC00DA642A1147FB006274E6 /* FlightsPresenter.swift */,
+				BCC54B952A125D8F000434D2 /* FlightModel.swift */,
+				BCC54BA12A127566000434D2 /* Views */,
+			);
+			path = FlightsModule;
+			sourceTree = "<group>";
+		};
+		BC00DA542A10C5F2006274E6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BC00DA552A10C606006274E6 /* UIViewExtension.swift */,
+				BC00DA592A10CBE9006274E6 /* StringExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BC00DA5B2A10E12E006274E6 /* DetailFlightModule */ = {
+			isa = PBXGroup;
+			children = (
+				BC00DA5C2A10E14E006274E6 /* DetailViewController.swift */,
+				BCC54B972A126D53000434D2 /* DetailPresenter.swift */,
+				BCC54BA02A12754D000434D2 /* Views */,
+			);
+			path = DetailFlightModule;
+			sourceTree = "<group>";
+		};
+		BCC54B902A124C17000434D2 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				BCC54B912A124C2B000434D2 /* DataBaseManager.swift */,
+				BCC54BA32A129077000434D2 /* Model.xcdatamodeld */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		BCC54B9B2A126DE0000434D2 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				BCC54B992A126DD0000434D2 /* ModulesFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		BCC54B9C2A126F87000434D2 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				BCC54B9D2A126F95000434D2 /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		BCC54B9F2A127283000434D2 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BC00DA4B2A0E7E65006274E6 /* NetworkManager.swift */,
+				BC00DA4D2A0FCC34006274E6 /* NetworkModel.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BCC54BA02A12754D000434D2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BC00DA622A112B49006274E6 /* DetailView.swift */,
+				BC00DA5E2A10E591006274E6 /* FlightInfoView.swift */,
+				BC00DA602A1120DC006274E6 /* PathView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BCC54BA12A127566000434D2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BC00DA502A10C206006274E6 /* FlightTableViewCell.swift */,
+				BC00DA522A10C2FA006274E6 /* CityAndTimeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BCC54BA22A1276EA000434D2 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				BC00DA372A0E65DD006274E6 /* AppDelegate.swift */,
+				BC00DA392A0E65DD006274E6 /* SceneDelegate.swift */,
+				BC00DA402A0E65DE006274E6 /* Assets.xcassets */,
+				BC00DA422A0E65DE006274E6 /* LaunchScreen.storyboard */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +211,8 @@
 			dependencies = (
 			);
 			name = "Time to travel";
+			packageProductDependencies = (
+			);
 			productName = "Time to travel";
 			productReference = BC00DA342A0E65DD006274E6 /* Time to travel.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +241,8 @@
 				Base,
 			);
 			mainGroup = BC00DA2B2A0E65DD006274E6;
+			packageReferences = (
+			);
 			productRefGroup = BC00DA352A0E65DD006274E6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +259,6 @@
 			files = (
 				BC00DA442A0E65DE006274E6 /* LaunchScreen.storyboard in Resources */,
 				BC00DA412A0E65DE006274E6 /* Assets.xcassets in Resources */,
-				BC00DA3F2A0E65DD006274E6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +269,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC00DA3C2A0E65DD006274E6 /* ViewController.swift in Sources */,
+				BC00DA4C2A0E7E65006274E6 /* NetworkManager.swift in Sources */,
+				BC00DA612A1120DC006274E6 /* PathView.swift in Sources */,
+				BC00DA512A10C206006274E6 /* FlightTableViewCell.swift in Sources */,
+				BC00DA3C2A0E65DD006274E6 /* FlightsViewController.swift in Sources */,
+				BCC54B922A124C2B000434D2 /* DataBaseManager.swift in Sources */,
+				BCC54B962A125D8F000434D2 /* FlightModel.swift in Sources */,
 				BC00DA382A0E65DD006274E6 /* AppDelegate.swift in Sources */,
+				BCC54BA52A129077000434D2 /* Model.xcdatamodeld in Sources */,
+				BC00DA5F2A10E591006274E6 /* FlightInfoView.swift in Sources */,
+				BC00DA532A10C2FA006274E6 /* CityAndTimeView.swift in Sources */,
+				BC00DA632A112B49006274E6 /* DetailView.swift in Sources */,
+				BCC54B982A126D53000434D2 /* DetailPresenter.swift in Sources */,
+				BCC54B9E2A126F95000434D2 /* Coordinator.swift in Sources */,
+				BC00DA5A2A10CBE9006274E6 /* StringExtension.swift in Sources */,
+				BC00DA4E2A0FCC34006274E6 /* NetworkModel.swift in Sources */,
+				BC00DA5D2A10E14E006274E6 /* DetailViewController.swift in Sources */,
+				BC00DA562A10C606006274E6 /* UIViewExtension.swift in Sources */,
+				BCC54B9A2A126DD0000434D2 /* ModulesFactory.swift in Sources */,
+				BC00DA652A1147FB006274E6 /* FlightsPresenter.swift in Sources */,
 				BC00DA3A2A0E65DD006274E6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +295,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BC00DA3D2A0E65DD006274E6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC00DA3E2A0E65DD006274E6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BC00DA422A0E65DE006274E6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +432,6 @@
 				INFOPLIST_FILE = "Time to travel/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +459,6 @@
 				INFOPLIST_FILE = "Time to travel/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +496,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BCC54BA32A129077000434D2 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BCC54BA42A129077000434D2 /* Model.xcdatamodel */,
+			);
+			currentVersion = BCC54BA42A129077000434D2 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BC00DA2C2A0E65DD006274E6 /* Project object */;
 }
